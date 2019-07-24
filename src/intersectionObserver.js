@@ -1,5 +1,8 @@
 // polyfill
-import * as window from 'window'
+const Window = require('window');
+
+const window = new Window();
+
 import {} from 'intersection-observer'
 import { mapEntry } from './waypointInterface'
 
