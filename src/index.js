@@ -14,8 +14,8 @@ const VueWaypoint = {
       Vue.prototype.$waypointMap = { GOING_IN, GOING_OUT, DIRECTION_TOP, DIRECTION_RIGHT, DIRECTION_BOTTOM, DIRECTION_LEFT }
     }
   },
-  addObserver,
-  removeObserver,
+  //addObserver,
+  //removeObserver,
   map: { GOING_IN, GOING_OUT, DIRECTION_TOP, DIRECTION_RIGHT, DIRECTION_BOTTOM, DIRECTION_LEFT }
 }
 
