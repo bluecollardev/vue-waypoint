@@ -7,7 +7,7 @@ const defineDirective = Vue => {
       const { active, callback, options } = binding.value
 
       // if user asked for activation, activate
-      if (active) {
+      if (typeof window !== 'undefined' && active) {
         const waypoint = addObserver(el, callback, options)
         vnode._waypoint = waypoint
       }
@@ -21,7 +21,7 @@ const defineDirective = Vue => {
       }
 
       // if user asked for acivation, activate
-      if (active) {
+      if (typeof window !== 'undefined' && active) {
         const waypoint = addObserver(el, callback, options)
         vnode._waypoint = waypoint
       }
