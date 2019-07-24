@@ -1,4 +1,5 @@
 // polyfill
+import * as window from 'window'
 import {} from 'intersection-observer'
 import { mapEntry } from './waypointInterface'
 
